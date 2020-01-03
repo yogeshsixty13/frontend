@@ -1,0 +1,185 @@
+
+.galleryWrapper {
+  font-size: 0.85rem;
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.galleryWrapper,
+.imageBox {
+  max-width: 60rem;
+}
+
+.imageBox {
+  text-align: center;
+}
+
+.imageContainer.portfolio .image-upload img{
+	width: 50px;
+	height: 60px;
+	object-fit: contain;
+}
+.imageContainer.portfolio div {
+	width: 115px;
+	height: 80px;
+	display: inline;	
+}
+.imageContainer.portfolio div img{
+	width: 115px;
+	height: 80px;
+	object-fit: cover;
+}
+.imageContainer.backgroundimg div {
+	width: 115px;
+	height: 80px;
+	display: inline;	
+}
+.imageContainer.backgroundimg div img{
+	
+	height: 80px;
+	object-fit: cover;
+}
+.image-upload{
+	display: block !important;
+}
+.imageContainer img{
+	width: 75px;
+	height: 60px;
+	display: inline-block;
+	object-fit: contain;
+
+}
+
+.imageLink {
+  display: inline-block;
+}
+
+.imageLink,
+.imageBox {
+  line-height: 0;  
+}
+
+.imageLink:nth-of-type(-n+3) {
+/*  margin-bottom: 0.8rem;*/
+}
+
+.imageBox,
+.largeImage,
+.imageCaption {
+  width: 100%;
+}
+
+.image,
+.largeImage {
+  -webkit-transform: perspective(1px);
+  -moz-transform: perspective(1px);
+  transform: perspective(1px);
+}
+
+.overlayContainer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 250;
+}
+
+.overlayContainer,
+.imageCaption {
+  bottom: 0;
+}
+
+.relativeContainer {
+  position: relative;
+  margin: 0 0.5rem;
+}
+
+.imageBox,
+.imageCaption {
+  position: absolute;
+}
+
+.imageBox {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.display {
+  display: block;
+}
+
+.imageCaption {
+  margin: 0;
+  font-size: 1.3em;
+  padding: 0.325rem;
+}
+
+.imageLink {
+  outline: none;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.imageLink:hover,
+.imageLink:focus {
+  opacity: 0.8;
+}
+
+.overlayContainer {
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(51, 51, 51, .9);
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+.imageBox {
+  cursor: pointer;
+}
+
+.largeImage {
+  box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+	background: #fff;
+	padding: 5px;		
+}
+
+
+.imageCaption {
+  background: rgba(51, 51, 51, .8);
+  color: #fff;
+	display: none;
+}
+
+.opacity {
+  visibility: visible;
+  opacity: 1;
+	z-index: 9999;
+}
+
+
+
+@media only screen and (min-width: 30em) {
+  
+.imageLink {  
+/*  float: left;*/
+/*  width: 48.33%;*/
+}
+/*
+  
+.imageLink:nth-of-type(1),
+.imageLink:nth-of-type(3) {
+  margin-right: 10px;
+}  
+*/
+  
+.imageLink:nth-of-type(3) {
+  margin-bottom: 0;
+}
+ 
+  
+  
+}

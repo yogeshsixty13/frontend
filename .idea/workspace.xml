@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00be25ae-3cb4-4303-9d48-89cab9926f26" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.php.core.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.php.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__db_sql.txt" afterPath="$PROJECT_DIR$/__db_sql.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/account.php" afterPath="$PROJECT_DIR$/application/controllers/account.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/product.php" afterPath="$PROJECT_DIR$/application/controllers/admin/product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/product_categories.php" afterPath="$PROJECT_DIR$/application/controllers/admin/product_categories.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/sales_order.php" afterPath="$PROJECT_DIR$/application/controllers/admin/sales_order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/cart.php" afterPath="$PROJECT_DIR$/application/controllers/cart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/checkout.php" afterPath="$PROJECT_DIR$/application/controllers/checkout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/login.php" afterPath="$PROJECT_DIR$/application/controllers/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/rest/rest_home.php" afterPath="$PROJECT_DIR$/application/controllers/rest/rest_home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/site.php" afterPath="$PROJECT_DIR$/application/controllers/site.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/admin_helper.php" afterPath="$PROJECT_DIR$/application/helpers/admin_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/cart_helper.php" afterPath="$PROJECT_DIR$/application/helpers/cart_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/common_helper.php" afterPath="$PROJECT_DIR$/application/helpers/common_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/commondb_helper.php" afterPath="$PROJECT_DIR$/application/helpers/commondb_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/cron_helper.php" afterPath="$PROJECT_DIR$/application/helpers/cron_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/custom_file_helper.php" afterPath="$PROJECT_DIR$/application/helpers/custom_file_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/custom_url_helper.php" afterPath="$PROJECT_DIR$/application/helpers/custom_url_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/front_end_helper.php" afterPath="$PROJECT_DIR$/application/helpers/front_end_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/login_signup_helper.php" afterPath="$PROJECT_DIR$/application/helpers/login_signup_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_admin_menu.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_admin_menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_article.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_article_category.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_article_category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_banner.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_banner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_customer_private_message.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_customer_private_message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_inventory_type.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_inventory_type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_product.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_product_attribute.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_product_attribute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_product_categories.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_product_categories.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_sales_order.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_sales_order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin/mdl_slider.php" afterPath="$PROJECT_DIR$/application/models/admin/mdl_slider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/mdl_account.php" afterPath="$PROJECT_DIR$/application/models/mdl_account.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/mdl_checkout.php" afterPath="$PROJECT_DIR$/application/models/mdl_checkout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/mdl_home.php" afterPath="$PROJECT_DIR$/application/models/mdl_home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/mdl_login.php" afterPath="$PROJECT_DIR$/application/models/mdl_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/mdl_products.php" afterPath="$PROJECT_DIR$/application/models/mdl_products.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/admin_menu/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/admin_menu/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/admin_permission/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/admin_permission/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/admin_user/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/admin_user/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/admin_user_group/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/admin_user_group/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/article/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/article/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/article/article_form.php" afterPath="$PROJECT_DIR$/application/views/admin/article/article_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/article_category/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/article_category/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/banner/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/banner/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/country/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/country/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/coupon/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/coupon/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/currency/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/currency/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/customer/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/customer/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/customer_group/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/customer_group/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/customer_private_message/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/customer_private_message/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/diamond_color/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/diamond_color/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/elements/header.php" afterPath="$PROJECT_DIR$/application/views/admin/elements/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/elements/header_menu.php" afterPath="$PROJECT_DIR$/application/views/admin/elements/header_menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/email_list/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/email_list/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/email_system/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/email_system/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/image_size/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/image_size/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/inventory_type/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/inventory_type/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/inventory_type/ims_ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/inventory_type/ims_ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/languages/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/languages/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/mail_templates/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/mail_templates/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/main_front_menu/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/main_front_menu/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/main_front_menu/main_front_menu_form_menu.php" afterPath="$PROJECT_DIR$/application/views/admin/main_front_menu/main_front_menu_form_menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/main_front_menu/menu_ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/main_front_menu/menu_ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/manufacturer/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/manufacturer/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/metal_color/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/metal_color/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/metal_purity/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/metal_purity/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/metal_type/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/metal_type/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/module_manager/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/module_manager/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/order_status/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/order_status/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/payment_method/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/payment_method/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/pincode/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/pincode/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/product/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/product/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/product/ajax_html_data_sl.php" afterPath="$PROJECT_DIR$/application/views/admin/product/ajax_html_data_sl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/product/product_list.php" afterPath="$PROJECT_DIR$/application/views/admin/product/product_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/product_attribute/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/product_attribute/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/product_categories/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/product_categories/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/product_offer/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/product_offer/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/product_review/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/product_review/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/report/report_admin_log_list.php" afterPath="$PROJECT_DIR$/application/views/admin/report/report_admin_log_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/sales_order/New folder/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/sales_order/New folder/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/sales_order/New folder/product_ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/sales_order/New folder/product_ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/sales_order/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/sales_order/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/sales_order/items_ordered.php" afterPath="$PROJECT_DIR$/application/views/admin/sales_order/items_ordered.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/sales_order/product_row.php" afterPath="$PROJECT_DIR$/application/views/admin/sales_order/product_row.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/sales_order/sales_order_form.php" afterPath="$PROJECT_DIR$/application/views/admin/sales_order/sales_order_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/sales_order_return/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/sales_order_return/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/sales_order_return/sales_order_return_form.php" afterPath="$PROJECT_DIR$/application/views/admin/sales_order_return/sales_order_return_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/scrapper/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/scrapper/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/shipping_method/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/shipping_method/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/shipping_method/shipping_method_form.php" afterPath="$PROJECT_DIR$/application/views/admin/shipping_method/shipping_method_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/shipping_pincodes/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/shipping_pincodes/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/slider/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/slider/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/slider/slider_form.php" afterPath="$PROJECT_DIR$/application/views/admin/slider/slider_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/state/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/state/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/stock_status/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/stock_status/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/tax_rate/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/tax_rate/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/warehouse_products/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/warehouse_products/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/warehouse_transactions/ajax_html_data.php" afterPath="$PROJECT_DIR$/application/views/admin/warehouse_transactions/ajax_html_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/admin/stylesheet.css" afterPath="$PROJECT_DIR$/css/admin/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/git_commit_admin_panel.sh" afterPath="$PROJECT_DIR$/git_commit_admin_panel.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/admin/admin.js" afterPath="$PROJECT_DIR$/js/admin/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/admin/common.js" afterPath="$PROJECT_DIR$/js/admin/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/core/Common.php" afterPath="$PROJECT_DIR$/system/core/Common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/libraries/Session.php" afterPath="$PROJECT_DIR$/system/libraries/Session.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="footer-menu.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/elements/footer-menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="45" column="63" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/views/elements/footer-menu.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gujcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gujcart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gujcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gujcart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gujcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gujcart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gujcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gujcart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elements" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00be25ae-3cb4-4303-9d48-89cab9926f26" name="Default" comment="" />
+      <created>1486639077831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1486639077831</updated>
+      <workItem from="1486639081045" duration="2875000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2875000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/views/elements/footer-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="45" column="63" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

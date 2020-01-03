@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="keywords" content="WOW Tasks, Jobs, Job Work">
+    <meta name="description" content="WOW Tasks">
+    <link rel="icon" href="images/favicon4.png">
+    <title>Job Work - payment records</title>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->   
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom styles -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-slider.css"/>
+    <link rel="stylesheet" href="css/bootstrap-select.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/set1.css"/>    
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+    <link rel="stylesheet" type="text/css" href="css/media.css"/>
+    
+    <!-- fontawesome styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+    <!--    datepicker-->
+   <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+    <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    
+    
+    <script src="js/perfect-scrollbar.js"></script>  
+        
+</head>
+<body class="mb-0">
+  <!-- page content -->
+<header class="bg-white navbar-fixed-top container-header ">
+  <nav class="navbar navbar-default border-0 mb-0 mb-md-4">
+  <div class="container1"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+           
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+       <ul class="nav navbar-nav navbar-right text-center">
+        <li><a href="#" class="newpost1" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false"><i class="fas fa-briefcase  mB10 pR5"></i> Post Task</a></li>   
+        <li><a href="find-jobs.html" class=""><i class="fas fa-search mB10 pR5"></i>Find Tasks</a></li>
+        <li><a href="my-jobs.html"><i class="fas fa-archive mB10 pR5"></i>My Tasks</a></li>  
+        <li>
+            
+              <a class="dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="far fa-bell mB10 pR5"></i>Notifications
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="notification.html" class="noti-block py-2 px-3 mb-0">
+					<div class="user-img pull-left">
+						<img src="images/user.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="noti-detail ">
+						<p class="mb-1"><strong>ITs Arsal here</strong>Lorem ipsum, or lipsum as it</p>
+						<small class="text-muted">2 day ago</small>
+					</div>
+               </a></li>
+                 <li><a href="notification.html" class="noti-block py-2 px-3 mb-0">
+					<div class="user-img pull-left">
+						<img src="images/user.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="noti-detail">
+						<p class="mb-1"><strong>ITs Arsal here</strong>Lorem ipsum, or lipsum as it</p>
+						<small class="text-muted">2 day ago</small>
+					</div>
+               </a></li>
+                <li><a href="notification.html" class="noti-block py-2 px-3 mb-0">
+					<div class="user-img pull-left">
+						<img src="images/user.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="noti-detail">
+						<p class="mb-1"><strong>ITs Arsal here</strong>Lorem ipsum, or lipsum as it</p>
+						<small class="text-muted">2 day ago</small>
+					</div>
+               </a></li>
+                <li><a href="notification.html" class="noti-block py-2 px-3 mb-0">
+					<div class="user-img pull-left">
+						<img src="images/user.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="noti-detail">
+						<p class="mb-1"><strong>ITs Arsal here</strong>Lorem ipsum, or lipsum as it</p>
+						<small class="text-muted">2 day ago</small>
+					</div>
+               </a></li>
+               <li><a href="notification.html" class="noti-block py-2 px-3 mb-0">
+					<div class="user-img pull-left">
+						<img src="images/user.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="noti-detail ">
+						<p class="mb-1"><strong>ITs Arsal here</strong>Lorem ipsum, or lipsum as it</p>
+						<small class="text-muted">2 day ago</small>
+					</div>
+               </a></li>
+                 <li><a href="notification.html" class="noti-block py-2 px-3 mb-0">
+					<div class="user-img pull-left">
+						<img src="images/user.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="noti-detail">
+						<p class="mb-1"><strong>ITs Arsal here</strong>Lorem ipsum, or lipsum as it</p>
+						<small class="text-muted">2 day ago</small>
+					</div>
+               </a></li>
+                <li><a href="notification.html" class="noti-block py-2 px-3 mb-0">
+					<div class="user-img pull-left">
+						<img src="images/user.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="noti-detail">
+						<p class="mb-1"><strong>ITs Arsal here</strong>Lorem ipsum, or lipsum as it</p>
+						<small class="text-muted">2 day ago</small>
+					</div>
+               </a></li>
+                <li><a href="notification.html" class="noti-block py-2 px-3 mb-0">
+					<div class="user-img pull-left">
+						<img src="images/user.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="noti-detail">
+						<p class="mb-1"><strong>ITs Arsal here</strong>Lorem ipsum, or lipsum as it</p>
+						<small class="text-muted">2 day ago</small>
+					</div>
+               </a></li>
+               <li><a href="notification.html" class="noti-block py-2 px-3 mb-0">
+					<div class="user-img pull-left">
+						<img src="images/user.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="noti-detail ">
+						<p class="mb-1"><strong>ITs Arsal here</strong>Lorem ipsum, or lipsum as it</p>
+						<small class="text-muted">2 day ago</small>
+					</div>
+               </a></li>
+                 <li><a href="notification.html" class="noti-block py-2 px-3 mb-0">
+					<div class="user-img pull-left">
+						<img src="images/user.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="noti-detail">
+						<p class="mb-1"><strong>ITs Arsal here</strong>Lorem ipsum, or lipsum as it</p>
+						<small class="text-muted">2 day ago</small>
+					</div>
+               </a></li>      
+               
+               <li>
+               	<a href="notification.html" class=" py-2 mx-5 btn btn-upload mt-3">Read More</a>
+               </li>               
+               
+              </ul>
+              
+        </li>    
+        <li>
+              <a class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="far fa-user mB10 pR5"></i>My Account
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="profile.html"><i class="fas fa-user-tie text-primary"></i>&nbsp;&nbsp;My Profile</a></li>
+                <li role="separator" class="divider"></li>  
+                <li><a href="payments.html"><i class="fas fa-credit-card text-primary"></i>&nbsp; Payment records</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#payment"><i class="fas fa-money-bill-wave text-primary"></i>&nbsp; Payments</a></li>
+                <li><a href="change-pass.html"><i class="fas fa-lock text-primary"></i>&nbsp; Change password</a></li>
+                <li><a href=""><i class="fas fa-info text-primary"></i>&nbsp; Help / Contact US</a></li>
+                <li><a href="Terms_conditions.html"><i class="fas fa-file text-primary"></i>&nbsp; Terms Of Service</a></li>
+                <li><a href="profile.html"><i class="fas fa-shield-alt text-primary"></i>&nbsp; Privacy Policy</a></li>
+                <li><a href=""><i class="fas fa-file text-primary"></i>&nbsp; Insurance</a></li>
+                <li><a href=""><i class="fas fa-file text-primary"></i>&nbsp; Software Licence</a></li>
+                <li><a href=""><i class="fas fa-file text-primary"></i>&nbsp; Disclaimer</a></li>
+                <li role="separator" class="divider"></li>  
+                <li><a href="login.html"><i class="fas fa-sign-out-alt text-primary"></i>&nbsp;&nbsp; Logout</a></li>
+              </ul>
+              
+        </li>   
+      </ul>
+      </div>    
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+</header>
+<div class="container mt-100 mt-65 mt-md-5 pt-md-5 mT130-xs">
+
+	<!-- main tabs -->
+	<div class="clearfix pay-record mt-5">		
+		<ul class="nav nav-pills job-bid__tab text-center col-md-5 pull-none mx-auto text-center mt-lg-0 mb-lg-5 pb-3">
+			<li class="active"><a data-toggle="pill" href="#post-job">Received Payments</a></li>
+			<li><a data-toggle="pill" href="#wishlist">Made Payments</a></li>		
+		</ul>	
+	</div>
+	<!-- end::  main tabs -->
+	
+	
+<!--	begin:: tab content-->
+
+<!--   begin:: Posted Job work -->
+<div class="tab-content">   
+    <div id="post-job" class="tab-pane fade active in">
+   
+     
+      <div class="row">
+<!--  Left Panel-->
+
+	<div class="col-md-5 forscrl pl-0 pr-xl-2 pr-lg-0 pull-none mx-auto">		
+
+		<div class="row findjob">    
+			<div class="col-md-12 details-show">
+	<!--		begin:: left side job list -->
+				<ul class="nav nav-pills findjob-pills" id="my-job-list" role="tablist">
+
+					<li class="active">
+						<a  class="mob_opn-sidepanel nav-link" data-toggle="pill" href="#rcived-payment1">
+							<div class="forhr my-job">
+								<div class="row">
+									<div class="col-md-2 pR0 text-center col-xs-2 mB5">
+										<div class="defaultJob  user-img"><img src="images/job-dummy.png"></div>
+									</div>
+									<div class="col-md-7 col-xs-7 pL15-xs">
+									   <h4 class="border-bottom pb-2">Test task for a new Job</h4>
+										<p class="mB5">
+											<span><i class="fas fa-user mr-1"></i> Maria Fernandez</span>	           
+										</p>
+										<p class="mB5"><span><i class="far fa-calendar mr-1"></i> <span>Payment Date : </span> Sat 14, Sep </span></p>
+										<p class="mB5"><span class=""> <i class="fas fa-envelope mr-1"></i>Info @gmail.com</span></p>
+										<p class="mB5"><span class=""><span> Intrac e-Transfer Security Answer :</span>iZe423</span></p>
+									</div>
+									<div class="col-md-3 text-center col-xs-3 pL0-xs pl-lg-0 pl-xl-3">
+										<p class="price">$0.89</p> 
+										<span class="label label-danger">recived</span> 
+									</div>    
+								</div>	
+<!--
+								<div class="clearfix d-flex job-option mt-2">
+									<div class="mr-4"><i class="fa fa-trash"></i> Delete</div>
+									<div class="mr-4"><i class="fa fa-copy"></i> Duplicate</div>
+									<div class="mr-4"><i class="fa fa-info"></i> Report Issue</div>
+									<div class=""><i class="fa fa-filter"></i> More Option</div>
+								</div>
+-->
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a data-toggle="pill" href="#rcived-payment12" class="mob_opn-sidepanel nav-link">
+							<div class="forhr my-job">
+								<div class="row">
+									<div class="col-md-2 pR0 text-center col-xs-2 mB5">
+										<div class="defaultJob  user-img"><img src="images/job-dummy.png"></div>
+									</div>
+									<div class="col-md-7 col-xs-7 pL15-xs">
+									   <h4 class="border-bottom pb-2">Test task for a new Job</h4>
+										<p class="mB5">
+											<span><i class="fas fa-user mr-1"></i> Maria Fernandez</span>	           
+										</p>
+										<p class="mB5"><span><i class="far fa-calendar mr-1"></i> <span>Payment Date : </span> Sat 14, Sep </span></p>
+										<p class="mB5"><span class=""> <i class="fas fa-envelope mr-1"></i>Info @gmail.com</span></p>
+										<p class="mB5"><span class=""><span> Intrac e-Transfer Security Answer :</span>iZe423</span></p>
+									</div>
+									<div class="col-md-3 text-center col-xs-3 pL0-xs pl-lg-0 pl-xl-3">
+										<p class="price">$0.89</p> 
+										<span class="label label-danger">recived</span> 
+									</div>    
+								</div>
+							</div>							
+						</a>
+					</li>
+
+					<li>
+						<a data-toggle="pill" href="#rcived-payment13" class="mob_opn-sidepanel nav-link">
+							<div class="forhr my-job">
+								<div class="row">
+									<div class="col-md-2 pR0 text-center col-xs-2 mB5">
+										<div class="defaultJob  user-img"><img src="images/job-dummy.png"></div>
+									</div>
+									<div class="col-md-7 col-xs-7 pL15-xs">
+									   <h4 class="border-bottom pb-2">Test task for a new Job</h4>
+										<p class="mB5">
+											<span><i class="fas fa-user mr-1"></i> Maria Fernandez</span>	           
+										</p>
+										<p class="mB5"><span><i class="far fa-calendar mr-1"></i> <span>Payment Date : </span> Sat 14, Sep </span></p>
+										<p class="mB5"><span class=""> <i class="fas fa-envelope mr-1"></i>Info @gmail.com</span></p>
+										<p class="mB5"><span class=""><span> Intrac e-Transfer Security Answer :</span>iZe423</span></p>
+									</div>
+									<div class="col-md-3 text-center col-xs-3 pL0-xs pl-lg-0 pl-xl-3">
+										<p class="price">$0.89</p> 
+										<span class="label label-danger">recived</span> 
+									</div>    
+								</div>
+							</div>	
+						</a>
+					</li>
+
+					<li>
+						<a data-toggle="pill" href="#rcived-payment14" class="mob_opn-sidepanel nav-link">
+							<div class="forhr my-job">
+							<div class="row">
+									<div class="col-md-2 pR0 text-center col-xs-2 mB5">
+										<div class="defaultJob  user-img"><img src="images/job-dummy.png"></div>
+									</div>
+									<div class="col-md-7 col-xs-7 pL15-xs">
+									   <h4 class="border-bottom pb-2">Test task for a new Job</h4>
+										<p class="mB5">
+											<span><i class="fas fa-user mr-1"></i> Maria Fernandez</span>	           
+										</p>
+										<p class="mB5"><span><i class="far fa-calendar mr-1"></i> <span>Payment Date : </span> Sat 14, Sep </span></p>
+										<p class="mB5"><span class=""> <i class="fas fa-envelope mr-1"></i>Info @gmail.com</span></p>
+										<p class="mB5"><span class=""><span> Intrac e-Transfer Security Answer :</span>iZe423</span></p>
+									</div>
+									<div class="col-md-3 text-center col-xs-3 pL0-xs pl-lg-0 pl-xl-3">
+										<p class="price">$0.89</p> 
+										<span class="label label-danger">recived</span> 
+									</div>    
+								</div>	
+							</div>	
+						</a>
+					</li>
+
+				</ul>
+	<!--		end:: left side job list -->
+			</div>     
+		 </div> 
+
+	</div>
+    
+
+    </div>
+    </div>
+
+	
+	<!--   end:: Posted Job work -->
+
+	
+<!--    second tab -->
+     <div id="wishlist" class="tab-pane fade">
+      <div class="row">
+<!--  Left Panel-->
+
+<div class="col-md-5 forscrl pl-0 pr-xl-2 pr-lg-0  pull-none mx-auto">	
+    <div class="row findjob">    
+		<div class="col-md-12 details-show">
+<!--		begin:: left side job list -->
+			<ul class="nav nav-pills findjob-pills" id="my-job-list1" role="tablist">
+				
+				<li class="active">
+					<a  class="mob_opn-sidepanel nav-link" data-toggle="pill" href="#my-job1">
+						<div class="forhr my-job">
+							<div class="row">
+								<div class="col-md-2 pR0 text-center col-xs-2 mB5">
+									<div class="defaultJob user-img"><img src="images/job-dummy.png"></div>
+								</div>
+								<div class="col-md-7 pL0 col-xs-7 pL15-xs">
+								   <h4 class="border-bottom pb-2">Test task for you</h4>
+									<p class="mB5">
+										<span><i class="fas fa-user mt-1"></i> To : John doe </span>	            
+									</p>
+									<p class="mB5"><span><i class="far fa-calendar mr-1"></i> <span>Payment Date : </span> Sat 14, Sep </span></p>									
+								</div>
+								<div class="col-md-3 text-center col-xs-3 pL0-xs pl-lg-0 pl-xl-3">
+									<p class="price">$ 1</p> 
+									<span class="label label-danger">Secured</span> 
+								</div>    
+							</div>			
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a data-toggle="pill" href="#my-job2" class="mob_opn-sidepanel nav-link">
+						<div class="forhr my-job">
+							<div class="row">
+								<div class="col-md-2 pR0 text-center col-xs-2 mB5">
+									<div class="defaultJob user-img"><img src="images/job-dummy.png"></div>
+								</div>
+								<div class="col-md-7 pL0 col-xs-7 pL15-xs">
+								   <h4 class="border-bottom pb-2">Test task for you</h4>
+									<p class="mB5">
+										<span><i class="fas fa-user mt-1"></i> To : John doe </span>	            
+									</p>
+									<p class="mB5"><span><i class="far fa-calendar mr-1"></i> <span>Payment Date : </span> Sat 14, Sep </span></p>									
+								</div>
+								<div class="col-md-3 text-center col-xs-3 pL0-xs pl-lg-0 pl-xl-3">
+									<p class="price">$ 1</p> 
+									<span class="label label-danger">Secured</span> 
+								</div>    
+							</div>			
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a data-toggle="pill" href="#my-job3" class="mob_opn-sidepanel nav-link">
+						<div class="forhr my-job">
+							<div class="row">
+								<div class="col-md-2 pR0 text-center col-xs-2 mB5">
+									<div class="defaultJob user-img"><img src="images/job-dummy.png"></div>
+								</div>
+								<div class="col-md-7 pL0 col-xs-7 pL15-xs">
+								   <h4 class="border-bottom pb-2">Test task for you</h4>
+									<p class="mB5">
+										<span><i class="fas fa-user mt-1"></i> To : John doe </span>	            
+									</p>
+									<p class="mB5"><span><i class="far fa-calendar mr-1"></i> <span>Payment Date : </span> Sat 14, Sep </span></p>									
+								</div>
+								<div class="col-md-3 text-center col-xs-3 pL0-xs pl-lg-0 pl-xl-3">
+									<p class="price">$ 1</p> 
+									<span class="label label-danger">Secured</span> 
+								</div>    
+							</div>			
+						</div>	
+					</a>
+				</li>
+				
+				<li>
+					<a data-toggle="pill" href="#my-job4" class="mob_opn-sidepanel nav-link">
+						<div class="forhr my-job">
+							<div class="row">
+								<div class="col-md-2 pR0 text-center col-xs-2 mB5">
+									<div class="defaultJob user-img"><img src="images/job-dummy.png"></div>
+								</div>
+								<div class="col-md-7 pL0 col-xs-7 pL15-xs">
+								   <h4 class="border-bottom pb-2">Test task for you</h4>
+									<p class="mB5">
+										<span><i class="fas fa-user mt-1"></i> To : John doe </span>	            
+									</p>
+									<p class="mB5"><span><i class="far fa-calendar mr-1"></i> <span>Payment Date : </span> Sat 14, Sep </span></p>									
+								</div>
+								<div class="col-md-3 text-center col-xs-3 pL0-xs pl-lg-0 pl-xl-3">
+									<p class="price">$ 1</p> 
+									<span class="label label-danger">Secured</span> 
+								</div>    
+							</div>
+						</div>	
+					</a>
+				</li>
+				
+				<li>
+					<a data-toggle="pill" href="#my-job3" class="mob_opn-sidepanel nav-link">
+						<div class="forhr my-job">
+							<div class="row">
+								<div class="col-md-2 pR0 text-center col-xs-2 mB5">
+									<div class="defaultJob user-img"><img src="images/job-dummy.png"></div>
+								</div>
+								<div class="col-md-7 pL0 col-xs-7 pL15-xs">
+								   <h4 class="border-bottom pb-2">Test task for you</h4>
+									<p class="mB5">
+										<span><i class="fas fa-user mt-1"></i> To : John doe </span>	            
+									</p>
+									<p class="mB5"><span><i class="far fa-calendar mr-1"></i> <span>Payment Date : </span> Sat 14, Sep </span></p>									
+								</div>
+								<div class="col-md-3 text-center col-xs-3 pL0-xs pl-lg-0 pl-xl-3">
+									<p class="price">$ 1</p> 
+									<span class="label label-danger">Secured</span> 
+								</div>    
+							</div>			
+						</div>	
+					</a>
+				</li>
+				
+				<li>
+					<a data-toggle="pill" href="#my-job4" class="mob_opn-sidepanel nav-link">
+						<div class="forhr my-job">
+							<div class="row">
+								<div class="col-md-2 pR0 text-center col-xs-2 mB5">
+									<div class="defaultJob user-img"><img src="images/job-dummy.png"></div>
+								</div>
+								<div class="col-md-7 pL0 col-xs-7 pL15-xs">
+								   <h4 class="border-bottom pb-2">Test task for you</h4>
+									<p class="mB5">
+										<span><i class="fas fa-user mt-1"></i> To : John doe </span>	            
+									</p>
+									<p class="mB5"><span><i class="far fa-calendar mr-1"></i> <span>Payment Date : </span> Sat 14, Sep </span></p>									
+								</div>
+								<div class="col-md-3 text-center col-xs-3 pL0-xs pl-lg-0 pl-xl-3">
+									<p class="price">$ 1</p> 
+									<span class="label label-danger">Secured</span> 
+								</div>    
+							</div>
+						</div>	
+					</a>
+				</li>
+				
+			</ul>
+<!--		end:: left side job list -->
+		</div>     
+     </div> 
+
+</div>
+    
+
+    </div>
+    </div>   
+  </div>
+<!--	End:: tab content-->
+    
+</div>
+
+
+
+<!-- end:: page content -->
+
+ <!-- payment -->  
+  <div class="modal fade timeline-modal" id="payment" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title color-theam text-center">Select Payment Method</h4>
+        </div>
+        <div class="modal-body">
+        	
+           <ul class="nav nav-tabs my-job_tab mobile_fix-tab">
+		  		<li class=" nav-item active"><a class="nav-link" data-toggle="tab" href="#receivePayment">Receive Payment</a></li>
+				<li class="nav-item "><a class="nav-link" data-toggle="tab" href="#makePayment">Make payment</a></li>		  		 		
+			</ul>
+           
+           	<div class="tab-content">	  		
+		  		<div id="receivePayment" class="tab-pane fade in active position-relative">
+					<p class="mt-5 px-4">Payments for Completed tasks shall be transferrd via E-transfers to your Registerd Email id and detaila of Security Question and answer shall be emailed to you and also avilable on the payment Records Window at all times.</p>
+		  		</div>
+		  		
+		  		<div id="makePayment" class="tab-pane fade position-relative">
+					<h4 class="mt-5 px-md-5">Enter card info</h4>
+					<div class="form-group px-md-5">
+						<input type="text" placeholder="card number" class="form-control" />
+					</div>
+					<div class="text-center px-md-5">
+						<a href="#" type="button" class="btn btn-upload" data-dismiss="modal">Add Card</a>
+					</div>
+					<p class="mt-5 px-4 text-center">By Providing You Credit card details, you agree to Stripe T&amp;C. </p>
+					<p class="mt-3 px-4 text-center">Be Safe Your credit card is not charged untill You authorize. </p>
+		  		</div>
+			</div>
+        </div>
+        <div class="modal-footer clearfix">          
+<!--          <a href="#" type="button" class="btn btn-upload pull-right" data-dismiss="modal">Choose</a>          -->
+        </div>
+      </div>
+      
+    </div>
+  </div>  
+     
+<!-- Post job modal -->
+<div class="modal fade postjob" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     
+      <div class="modal-header text-center theam-linear-bg">
+       
+        <button type="button" class="close d-block" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title w-100 position-absolute" id="myModalLabel">Post Job</h4>
+      </div>
+      <div class="modal-body position-unset">
+        <div>
+
+  <ul class="nav nav-tabs text-center" role="tablist">
+    <li role="presentation" class="active" id="home_li">
+		<a href="#home1" aria-controls="home" role="tab">
+			<i class="fas fa-briefcase mB5"></i><br>Details
+		</a>
+	</li>
+    <li role="presentation" id="profile_li">
+		<a href="#profile1" aria-controls="profile" role="tab">
+		<i class="glyphicon glyphicon-map-marker mB5"></i><br>Location
+		</a>
+	</li>
+    <li role="presentation" id="message_li">
+		<a href="#messages1" aria-controls="messages" role="tab" >
+			<i class="fas fa-dollar-sign mB5"></i><br>Budget
+		</a>
+	</li>
+    <div class="progress theam-linear-bg">
+        <div class="progress-bar" id="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+          <span class="sr-only">30% Complete</span>
+        </div>
+   </div>                  
+  </ul>
+   
+
+  <form>
+  <div class="tab-content pB15 mT-10">
+    <div role="tabpanel" class="tab-pane fade in active" id="home">
+    
+    <div class="col-md-12">
+    <span class="input input--hoshi">
+		<label for="job title" class="form-label">Task title <small>(10-50 words)*</small></label>
+         <input class="form-control" placeholder="e.g. I need a plumber to fix a Tap" type="text" id="input-4" />
+		<!-- <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+				<span class="input__label-content input__label-content--hoshi">Job title</span>
+		</label> -->
+	</span>
+        </div>
+    <div class="col-md-12 mt-3">
+    <span class="input input--hoshi">
+		<label for="job title" class="form-label">Describe your task <small>(20-300 words)*</small></label>
+        <textarea class="form-control taskDesc" rows="5" type="text" id="input-45" placeholder="e.g. Kitchen Tap needs to be replaced. I m attaching an image of the new tap to be fitted and old leaking tap. Need to get this done. At the earliest within next 2 hours."></textarea>
+		<!-- <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-45">
+		</label> -->
+	</span>
+    </div>    
+    <div class="col-md-12 mT10	">
+    <p class="mB10">Add images / documents / files (if any)</p>    
+        <div class="image-upload">
+			<label for="PostTask">
+				<img src="images/add_image.png" class="img-responsive" alt="Attachment"/>
+			</label>
+			<input id="PostTask" type="file"/>
+		</div>
+
+    </div>   
+      
+    <!-- <div class="row m-0">
+    <div class="col-md-12 text-right">
+		<a href="#profile" class="text-dark" aria-controls="profile" role="tab" data-toggle="tab">
+			<button type="button" class="nextbtn post-job " data-id="profile_li"><i class="fas fa-arrow-right mB5"></i><br>Next</button>
+		</a>
+	</div>    
+	</div>    -->
+	<div class="button-row w-100 modal-controls">
+			<div class="row m-0 position-relative w-100">
+				<div class="col-md-12 col-xs-12 p-0">
+					<a href="#profile" class="text-dark custom-next" aria-controls="profile" role="tab" data-toggle="tab">
+						<button type="button" class="nextbtn post-job position-unset p-0 radio-focus" data-id="profile_li"><i class="fas fa-arrow-right mB5"></i><br></button>
+					</a>
+				</div>     
+			</div>
+		</div>   
+    </div>
+      
+    <div role="tabpanel" class="tab-pane fade" id="profile">
+		<div class="col-md-12">
+			<label for="radio" class="form-label">Task to be done:</label>
+		</div>
+    <div class="row m-0">
+    <div class="clearfix position-relative">
+		<div class="col-xs-6">
+			<div class="btn-group radio-focus" data-toggle="buttons">
+			<label class="btn btn-50 radio-focus">
+			  <input type="radio" name="work" class="task-to-be-done" id="in_person_rdo" data-id="1" value="1"><span>  In Person</span><i class="far fa-circle f-none"></i><i class="far fa-dot-circle f-none"></i>
+			</label>		
+		  </div>
+		</div>
+		<div class="col-xs-6">
+			<div class="btn-group radio-focus" data-toggle="buttons">
+			<label class="btn btn-50 radio-focus">
+			  <input type="radio" name="work" class="task-to-be-done" id="in_online_rdo" data-id="2" value="2"><span>  Online</span><i class="far fa-circle f-none"></i><i class="far fa-dot-circle f-none"></i>
+			</label>		
+		  </div> 
+		</div>
+    
+	  <div class="col-sm-12 p-0 mb-3 px-3 my-3">
+		<input type="text" class="form-control" name="in_person" id="in_person" placeholder="Task City/ Suburb">
+	  </div>
+	</div>      
+	</div>
+    <div class="col-md-12">
+		<label class="form-label"><strong class="form-label">Due Date</strong></label> 
+		<div class="btn-group btn-group-vertical position-relative" data-toggle="buttons">
+			<label class="btn active radio-focus">
+			<input type="radio" name="due" class="due-date" id="in_due_date_today" data-id="1"><span>  Today</span><i class="far fa-circle"></i><i class="far fa-dot-circle"></i>
+			</label>
+			<label class="btn radio-focus">
+			<input type="radio" name="due" class="due-date" id="in_due_date_week" data-id="2"><span> Within 1 week</span><i class="far fa-circle"></i><i class="far fa-dot-circle"></i>
+			</label>
+			<label class="btn radio-focus">
+			<input type="radio" name="due" class="due-date" id="in_due_date_certainDay" data-id="3" ><span> By a certain day</span><i class="far fa-circle"></i><i class="far fa-dot-circle"></i>
+			</label>
+		</div>
+		<input type="text" name="date_picker" id="datepicker" value ="MM/DD/YYYY" class="form-control certain__day mt-3"> 
+	</div>  
+        <div class="button-row w-100 modal-controls">
+			<div class="row m-0 w-100">
+				<div class="col-md-6 col-xs-6 p-0">
+					<a href="#home" class="text-dark custom-back" aria-controls="profile" role="tab" data-toggle="tab">
+						<button type="button" class="backbtn post-job position-unset p-0 radio-focus" data-id="home_li" ><i class="fas fa-arrow-left mB5"></i><br></button>
+					</a>
+				</div>  
+				<div class="col-md-6 col-xs-6 p-0">
+					<a href="#messages" class="text-dark custom-next" aria-controls="profile" role="tab" data-toggle="tab">
+						<button type="button" class="nextbtn post-job position-unset p-0 radio-focus" data-id="message_li"><i class="fas fa-arrow-right mB5"></i><br></button>
+					</a>
+				</div>     
+			</div>
+		</div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane fade" id="messages">
+    <div class="col-md-12">
+    <!-- <span class="input input--hoshi">
+         <input class="input__field input__field--hoshi" type="text" id="input-43" />
+		<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-43">
+				<span class="input__label-content input__label-content--hoshi">Number of people required</span>
+		</label>
+	</span> -->
+	<label for="" class="form-label">Estimated Budget</label>
+	<p class="text-muted m-0" style="font-size: 10px;">This estimate serves as a guide for Taskbar to send offers</p>
+    </div>  
+    <div class="col-md-12">
+    <!-- <p><strong class="text-primary">Type of budget</strong></p>  -->
+    <div class="btn-group btn-group-vertical d-flex" data-toggle="buttons">
+        <label class="btn active btn-50 radio-focus h-unset">
+          <input type="radio" name="due" checked id="perHour"><span> Per hour</span><i class="far fa-circle f-none"></i><i class="far fa-dot-circle f-none"></i>
+        </label>
+        <label class="btn btn-50 radio-focus h-unset">
+          <input type="radio" name="due" id="fixedPrice"><span> Fixed price</span><i class="far fa-circle f-none"></i><i class="far fa-dot-circle f-none"></i>
+        </label>
+      </div>
+    </div>  
+    <div class="col-md-12 mT15">
+    <span class="input input--hoshi">
+		 <input class="form-control boldPlaceholder" type="text" id="" placeholder="Estimated Price in $ per person"/>		
+	</span>
+	</div> 
+	<div class="col-md-12 mT15" id="txtHour">
+		<span class="input input--hoshi">
+			<input class="form-control boldPlaceholder" type="text" id="" placeholder="Hours"/>	
+		</span>
+	</div> 
+	<div class="col-md-12 mT15">
+		<!-- <label for="person" class="form-label"> </label> -->
+		<span class="input input--hoshi">
+			<input class="form-control boldPlaceholder"  type="text" id="" placeholder="Person required"/>	
+		</span>
+	</div> 
+	<div class="col-md-12 mT15">
+		<span class="input input--hoshi">
+			<input class="form-control" readonly type="text" id="" placeholder="Estimated Total Budget"/>	
+		</span>
+	</div> 
+<!--
+   <div class="col-md-12">
+   		<p class="noti-msg notification w-100 bg-success text-white">post task successfully</p>
+   </div>
+-->
+	<div class="button-row w-100 modal-controls">
+			<div class="row m-0 w-100">
+				<div class="col-md-6 col-xs-6 p-0">
+					<a href="#profile" class="text-dark custom-back" aria-controls="profile" role="tab" data-toggle="tab">
+						<button type="button" class="backbtn post-job position-unset p-0 radio-focus" data-id="profile_li"><i class="fas fa-arrow-left mB5"></i><br></button>
+					</a>
+				</div>  
+				<div class="col-md-6 col-xs-6 p-0">
+					<a href="#messages" class="text-dark custom-next" aria-controls="profile" role="tab" data-toggle="tab">
+						<button type="button" class="nextbtn post-job position-unset p-0 radio-focus" data-id="messages_li"><i class="fa fa-check mB5"></i><br></button>
+					</a>
+				</div>     
+			</div>
+		</div>
+    </div>
+  </div>
+    
+  </form>
+</div>
+      </div>
+    </div>
+  </div>
+</div>       
+   
+    
+      
+    
+     <script src="js/bootstrap.js"></script>
+     <script src="js/bootstrap-select.js" defer></script>
+     <script src="js/classie.js"></script>
+     <script src="js/bootstrap-slider.min.js"></script>
+  <!--  plugin for date picker-->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+	  $( function() {
+		    $( "#datepicker" ).datepicker();
+	  } );
+  </script>
+<!--  Plugin for the Wizard -->
+<script src="js/material-bootstrap-wizard.js"></script>    
+<script src="js/custom.js"></script>
+	
+<script src="js/myJs.js"></script>
+
+
+
+
+</body>    
+</html>    

@@ -1,0 +1,583 @@
+button.btn.btn-success.dropdown-toggle:focus {
+outline: none;
+}
+button.btn.btn-success.dropdown-toggle:active {
+outline: none;
+}
+
+#bs-example-navbar-collapse-1 .dropdown-menu { height: 460px; overflow: auto; }
+.GIF { width: 8%; }
+.task-post-details-preloader, .task-post-details-preloader, .preloader { top: 40%; }
+.m-15{margin: -15px} .mT-20{margin-top: -20px}.mT0{margin-top: 0}.mT-5{margin-top: -5px}.mT-10{margin-top: -10px}.mT-15{margin-top: -15px}.mT-40{margin-top: -40px}
+.mT-60{margin-top: -60px}.mT-80{margin-top: -80px}.mT-120{margin-top: -120px}.mT-180{margin-top: -180px}
+.mT5{margin-top: 5px}.mT8{margin-top: 8px}.mT10{margin-top: 10px}.mT15{margin-top: 15px}.mT20{margin-top: 20px}.mT25{margin-top: 25px}.mT30{margin-top: 30px}.mT12{margin-top: 12px}
+.mT35{margin-top: 35px}.mT40{margin-top: 40px}.mT50{margin-top: 50px}.mT60{margin-top: 60px}.mT70{margin-top: 70px}.mT80{margin-top: 80px}
+.mT90{margin-top: 90px}.mT100{margin-top: 100px}.mT95{margin-top: 95px}.mT120{margin-top: 120px}.mT140{margin-top: 140px}.mT150{margin-top: 150px}.mT162{margin-top: 162px}.mT180{margin-top: 180px} .mT200{margin-top: 200px}.mT220{margin-top: 220px}.mT280{margin-top: 280px}.mT400{margin-top: 400px}.mL5{margin-left: 5px}.mL10{margin-left: 10px}.mT35{margin-top: 35px}.mL4p{margin-left: 4%}
+.mL5{margin-left: 5px}.mL10{margin-left: 10px}.mL15{margin-left: 15px}.mL20{margin-left: 20px}.mL25{margin-left: 25px}.mL30{margin-left: 30px}
+.mL35{margin-left: 35px}.mL40{margin-left: 40px}.mR5{margin-right: 5px}.mR10{margin-right: 10px}.mR15{margin-right: 15px}
+.mR20{margin-right: 20px}.mR25{margin-right: 25px}.mR30{margin-right: 30px}.mR35{margin-right: 35px}.mR40{margin-right: 40px}
+.mR50{margin-right: 50px}.mR55{margin-right: 55px}.mR60{margin-right: 60px}.mR80{margin-right: 80px}.mB0{margin-bottom: 0}
+.mB5{margin-bottom: 5px}.mB10{margin-bottom: 10px}.mB15{margin-bottom: 15px}.mB20{margin-bottom: 20px}.mB25{margin-bottom: 20px}
+.mB30{margin-bottom: 35px}.mB35{margin-bottom: 40px}.mB40{margin-bottom: 40px}.mB50{margin-bottom: 50px}.mB80{margin-bottom: 80px}.mB150{margin-bottom: 150px}.mB162{margin-bottom: 162px}
+
+.pB0{padding-bottom: 0}.pR0{padding-right: 0}.pR5{padding-right: 5px}.pR10{padding-right: 10px}.pR15{padding-right: 15px}.pR20{padding-right: 20px}
+.pR30{padding-right: 30px}.pR35{padding-right: 35px}.pR40{padding-right: 40px}.pR50{padding-right: 50px}.pR60{padding-right: 60px}.pR70{padding-right: 70px}.pL0{padding-left: 0px}.pL3{padding-left: 3px}
+.pL5{padding-left: 5px}.pL10{padding-left: 10px}.pL15{padding-left: 15px}.pL20{padding-left: 20px}.pL25{padding-left: 25px}
+.pL30{padding-left: 30px}.pL35{padding-left: 35px}.pL40{padding-left: 40px}.pL45{padding-left: 45px}.pL50{padding-left: 50px}.pL60{padding-left: 60px}.pL70{padding-left: 70px}.pT5{padding-top: 5px}.pT10{padding-top: 10px}.pT15{padding-top: 15px}
+.pT20{padding-top: 20px}.pT25{padding-top: 25px}.pT30{padding-top: 30px}.pT35{padding-top: 35px}.pT40{padding-top: 40px}.pT50{padding-top: 50px}.pT55{padding-top: 55px}.pT60{padding-top: 60px}.pT70{padding-top: 70px}.pT100{padding-top: 100px}.pB5{padding-bottom: 5px}
+.pB10{padding-bottom: 10px}.pB15{padding-bottom: 15px}.pB20{padding-bottom: 20px}.pB25{padding-bottom: 25px}.pB30{padding-bottom: 30px}
+.pB35{padding-bottom: 35px}.pB40{padding-bottom: 40px}.pB50{padding-bottom: 50px}.pB60{padding-bottom: 60px}.pB70{padding-bottom: 70px}.pB80{padding-bottom: 80px}.pB100{padding-bottom: 100px}.pB55{padding-bottom: 55px}.pL60{padding-left: 60px}.pL80{padding-left: 80px}.pL200{padding-left: 200px}
+.pL220{padding-left: 220px}.pL240{padding-left: 240px}.pB2{padding-bottom: 2px} .pB1{padding-bottom: 1px} .pT80{padding-top: 80px}
+
+.fnt14{font-size: 14px}.fnt16{font-size: 16px}.fnt18{font-size: 18px}
+
+.h100{height: 100vh}
+.posr{position: relative}
+.posa{position: absolute; top: 100%; left: 0; right: 0; }
+.d-flex{ display: flex; align-items: center; justify-content: center;}
+.d-flex-middle{max-width: 100%; text-align: center}
+.fb{background: #3b5997; border-color: #3b5997}
+.btn-default.fb:hover, .btn-default.fb:active, .btn-default.fb:focus{background: #234384; border-color: #234384}
+.btn-default .fab{float: left; margin-top: 3px}
+.google{background: #f14436; border-color: #f14436}
+.btn-default.google:hover, .btn-default.google:active, .btn-default.google:focus{background: #d12d20; border-color: #d12d20}
+strong{font-weight: 700}
+.useriamge{border-radius: 50px; max-height: 70px; max-width: 70px; background: #fff; display: inline-block; overflow: hidden; z-index: 0; border: 1px solid #d12d20;}
+.useriamge img{z-index: 1; width: 100%; height: auto}
+.navbar-nav > li > .btn-group i.far{font-size: 20px}
+   
+.userdefault{border-radius: 50px; max-height: 25px; max-width: 25px; background: #fff; display: inline-block; overflow: hidden; z-index: 0; margin-top: -5px}
+.userdefault img{z-index: 1; width: 100%; height: auto}
+.forreg.dropup{max-width: 350px; display: inline-block; width: 100%;}
+.forreg.dropup .btn-default {color:  #6a7989; background-color: transparent; border-radius: 0; padding: 8px 0px; width: 100%; text-align: left; border: none; border-bottom: 3px solid #B9C1CA; font-weight: bold}
+.forreg.dropup .btn-default:focus, .forreg.dropup .btn-default:hover{background: transparent; color: rgba(0,0,0,0.8);}
+.forreg.dropup .btn .caret {margin-top: -10px; float: right; color: #CC3838}
+
+.forhr{ border: none; border-bottom: 1px solid #eee; padding: 10px 0 0 0; overflow: hidden}
+.forhr.active{border: 1px solid #cc3738; border-radius: 20px}
+.findjob h4{color: #404040; font-weight: bold; margin-top: 0; letter-spacing: 1px; font-size: 14px; margin-bottom: 5px}
+.findjob i{color: #D14B7A;}
+.findjob  p{font-size: 11px}
+.findjob p span{font-weight: bold; letter-spacing: 1px; color: #777}
+.findjob span.label-danger{font-size: 12px; border-radius: 50px; font-weight: normal; border: 1px solid #D14B75; color: #D14B75; background: transparent; min-width: 85px; display: inline-block;} 
+.findjob  p.price{font-size: 18px; padding: 10px 0 0 0; font-weight: bold; color: #CC3838; letter-spacing: 1px; margin-bottom: 5px }
+.findjob  p.price span{color: #333}
+.content hr{margin: 10px 0}
+
+.jobd{position: fixed; right: 7%; top: 25%; display: none}
+.jobd.active{display: block}
+
+.bidsonjob{border: 1px solid #dddddd; padding: 10px}
+.bidsonjob .message{font-size: 12px; color:#333}
+.bidsonjob .btn-default{padding: 4px 10px}
+
+.defaultjob{border-radius: 50px; max-height: 100px; max-width: 100px; padding: 0px; background: #fff; display: inline-block; overflow: hidden; 
+ border: 1px solid #DBDBDB; box-sizing: border-box}
+.defaultjob img{width: 100%; height: auto; box-sizing: border-box}
+#map{height: 75vh;}
+.filter .btn-success{background: transparent; border: none; box-shadow: none; color: #fff; font-size: 12px;}
+.filter .btn-success:active, .filter .btn-success.active, .filter .open > .dropdown-toggle.btn-success{background: transparent; border: none; box-shadow: none; color: #fff}
+.filter .input-group input{padding: 5px 10px; height: 25px; border-radius: 50px 0px 0 50px; font-size: 12px}
+.filter .input-group .input-group-btn button{padding: 2px 12px;}
+
+.filter p{color: rgba(255,255,255,1); margin-bottom: 0; font-size: 14px; font-weight: bold; margin-left: 10px !important;}
+
+/* Container style */
+.ps {
+  overflow: hidden !important;
+  overflow-anchor: none;
+  -ms-overflow-style: none;
+  touch-action: auto;
+  -ms-touch-action: auto;
+}
+
+/* Scrollbar rail styles */
+.ps__rail-x {
+  display: none;
+  opacity: 0;
+  transition: background-color .2s linear, opacity .2s linear;
+  -webkit-transition: background-color .2s linear, opacity .2s linear;
+  height: 15px;
+  /* there must be 'bottom' or 'top' for ps__rail-x */
+  bottom: 0px;
+  /* please don't change 'position' */
+  position: absolute;
+}
+
+.ps__rail-y {
+  display: none;
+  opacity: 0;
+  transition: background-color .2s linear, opacity .2s linear;
+  -webkit-transition: background-color .2s linear, opacity .2s linear;
+  width: 6px;
+  border-radius: 50px;
+  /* there must be 'right' or 'left' for ps__rail-y */
+  right: 0;
+  /* please don't change 'position' */
+  position: absolute;
+}
+
+.ps--active-x > .ps__rail-x,
+.ps--active-y > .ps__rail-y {
+  display: block;
+  background-color: #cfcfcf;
+}
+
+.ps:hover > .ps__rail-x,
+.ps:hover > .ps__rail-y,
+.ps--focus > .ps__rail-x,
+.ps--focus > .ps__rail-y,
+.ps--scrolling-x > .ps__rail-x,
+.ps--scrolling-y > .ps__rail-y {
+  opacity: 1;
+}
+
+.ps .ps__rail-x:hover,
+.ps .ps__rail-y:hover,
+.ps .ps__rail-x:focus,
+.ps .ps__rail-y:focus,
+.ps .ps__rail-x.ps--clicking,
+.ps .ps__rail-y.ps--clicking {
+  background-color: #eee;
+  opacity: 1;
+}
+
+/* Scrollbar thumb styles */
+.ps__thumb-x {
+  background-color: #aaa;
+  border-radius: 6px;
+  transition: background-color .2s linear, height .2s ease-in-out;
+  -webkit-transition: background-color .2s linear, height .2s ease-in-out;
+  height: 6px;
+  /* there must be 'bottom' for ps__thumb-x */
+  bottom: 2px;
+  /* please don't change 'position' */
+  position: absolute;
+}
+
+.ps__thumb-y {
+  background-color: #ef4035;
+  border-radius: 6px;
+  transition: background-color .2s linear, width .2s ease-in-out;
+  -webkit-transition: background-color .2s linear, width .2s ease-in-out;
+  width: 6px;
+  /* there must be 'right' for ps__thumb-y */
+  right: 0px;
+  /* please don't change 'position' */
+  position: absolute;
+}
+
+.ps__rail-x:hover > .ps__thumb-x,
+.ps__rail-x:focus > .ps__thumb-x,
+.ps__rail-x.ps--clicking .ps__thumb-x {
+  background-color: #999;
+  height: 11px;
+}
+
+/* MS supports */
+@supports (-ms-overflow-style: none) {
+  .ps {
+    overflow: auto !important;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ps {overflow: auto !important;}
+}
+
+#custscroll {
+      position: relative;
+      margin: 0px auto;
+      padding: 0px;
+      width: 100%;
+      height: 75vh;
+      overflow: auto;
+    }
+#custscroll .content {width: 90%; height: 320px;}
+.ps__rail-x, .ps__rail-y {opacity: 1;}
+.post {border:1px solid #D14B7A; margin: 20px auto; border-radius: 50px; width: 13%; position: absolute; left: 0; right: 0; padding: 6px 0; text-align: center; } 
+.post a{color: #D14B7A !important; padding: 8px 20px!important; margin: 0!important; border-bottom: 0!important; font-size: 16px; font-weight: bold; letter-spacing: 0.4px;}
+.post a:hover, .post a:focus{text-decoration: none}
+.post a i{margin-bottom: 0; margin-right: 10px; color: #D14B7A;}  
+
+.postjob { z-index: 9999999999 !important;}
+.postjob .modal-dialog { width: 450px; margin: 50px auto 30px;}
+.postjob .modal-content{border-radius: 10px; min-height: 570px; max-height: 570px; position: relative}
+.postjob .modal-header{background: -moz-linear-gradient(left, #d14649 0%, #d04564 50%, #cf4580 100%) !important;
+    background: -webkit-linear-gradient(left, #d14649 0%,#d04564 50%,#cf4580 100%) !important;
+    background: linear-gradient(to right, #d14649 0%,#d04564 50%,#cf4580 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d14649', endColorstr='#cf4580',GradientType=1 ); color: #fff; border: none;  border-radius: 8px 8px 0 0; padding: 0; overflow: hidden; padding-bottom: 40px}
+.postjob .modal-header .close{opacity: 0.6; position: relative; right: 20px; top: 15px;}
+.postjob .modal-header .close span{font-size: 40px; line-height: 25px; color: #fff ;text-shadow: 0 4px 6px #000;}
+.postjob .modal-footer {border-radius: 0 0 20px 20px}
+.postjob .modal-body{padding: 0}
+.postjob .modal-header h4{margin-top: 15px}
+.postjob .modal-body .progress {height: 10px; border-radius: 0;  margin-bottom: 0; background: -moz-linear-gradient(left, #d14649 0%, #d04564 50%, #cf4580 100%) !important;
+    background: -webkit-linear-gradient(left, #d14649 0%,#d04564 50%,#cf4580 100%) !important;
+    background: linear-gradient(to right, #d14649 0%,#d04564 50%,#cf4580 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d14649', endColorstr='#cf4580',GradientType=1 ); width: 100%}
+.postjob .modal-body .progress .progress-bar{background: #000;}
+.postjob .modal-body .nav.nav-tabs{border: none; position: relative; top: -35px; margin-bottom: 0;}
+.postjob .modal-body .nav.nav-tabs li {width: 33%}
+.postjob .modal-body .nav.nav-tabs li a{border: none; font-size: 10px; color: #D14B7A}
+.postjob .modal-body .nav.nav-tabs li i{border-radius: 50px; background: #fff; color: #D14B7A; font-size: 22px; box-shadow: 0 0 7px 2px rgba(0,0,0,0.3); transition: all 0.3s linear 0.3s;}
+.postjob .modal-body .nav.nav-tabs li.active i{background: #000;}
+.postjob .modal-body .nav.nav-tabs li.active a{color: #000; background: transparent}
+.postjob .modal-body .nav.nav-tabs li a:hover{background: transparent}
+.postjob .modal-body .nav.nav-tabs li i.fa-briefcase{padding: 15px;}
+.postjob .modal-body .nav.nav-tabs li i.glyphicon-map-marker{padding: 15px;}
+.postjob .modal-body .nav.nav-tabs li i.fa-dollar-sign{padding: 15px 19px;}
+.postjob .modal-body .nextbtn {position: absolute; right: 30px; bottom: -50px; background: transparent; border: none; box-shadow: none;}
+.postjob .modal-body .backbtn {position: absolute; left: 30px; bottom: -50px; background: transparent; border: none; box-shadow: none;}
+.postjob .modal-body .nextbtn i,.postjob .modal-body .backbtn i{border-radius: 50px; padding: 10px 11px; background: -moz-linear-gradient(left, #d14649 0%, #d04564 50%, #cf4580 100%) !important;
+    background: -webkit-linear-gradient(left, #d14649 0%,#d04564 50%,#cf4580 100%) !important;
+    background: linear-gradient(to right, #d14649 0%,#d04564 50%,#cf4580 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d14649', endColorstr='#cf4580',GradientType=1 ); color: #000; color: #fff}
+.postjob .modal-body .dropdown{max-width: 350px; display: inline-block; width: 100%;}
+.postjob .modal-body .dropdown .btn-default {color:  #6a7989; background-color: transparent; border-radius: 0; padding: 8px 0px; width: 100%; text-align: left; border: none; border-bottom: 3px solid #B9C1CA; font-weight: bold}
+.postjob .modal-body .dropdown .btn-default:focus, .forreg.dropup .btn-default:hover{background: transparent; color: rgba(0,0,0,0.8);}
+.postjob .modal-body .dropdown .btn .caret {margin-top: -10px; float: right; color: #CC3838}
+
+
+.postjob .modal-body .btn-group{width: 100%}
+.postjob .modal-body .btn-group label.btn span {float: left}
+.postjob .modal-body .btn-group label{height: 40px; width: 100%; box-shadow: none}
+.postjob .modal-body .btn-group label input[type="radio"] ~ i{float: right}
+.postjob .modal-body .btn-group label input[type="radio"] ~ i.far.fa-circle{color: #CC3838; display: inline;}
+.postjob .modal-body .btn-group label input[type="radio"] ~ i.far.fa-dot-circle{display: none;}
+.postjob .modal-body .btn-group label input[type="radio"]:checked ~ i.far.fa-circle{display: none;}
+.postjob .modal-body .btn-group label input[type="radio"]:checked ~ i.far.fa-dot-circle{color: #CC3838; display: inline;}
+.postjob .modal-body .btn-group label:hover input[type="radio"] ~ i.fas, .postjob .modal-body .btn-group label:hover input[type="radio"] ~ i.far {
+color: #AC1718;}
+.postjob .modal-body .btn-group label span{}
+.postjob .modal-body .btn-group div[data-toggle="buttons"] label.active{color: #AC1718;}
+.postjob .modal-body .btn-group div[data-toggle="buttons"] label {display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 2em;
+text-align: left; white-space: nowrap; vertical-align: top; cursor: pointer; background-color: none; border-radius: 3px;
+ -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none;user-select: none;}
+.postjob .modal-body .btn-group div[data-toggle="buttons"] label:hover {color: #AC1718;}
+.postjob .modal-body .btn-group div[data-toggle="buttons"] label:active, .postjob .modal-body .btn-group div[data-toggle="buttons"] label:focus, .postjob .modal-body .btn-group div[data-toggle="buttons"] label.active, .postjob .modal-body .btn-group div[data-toggle="buttons"] label.active.focus  {-webkit-box-shadow: none; box-shadow: none;}
+.postjob .modal-body p span.total{color: #CC3838; font-size: 20px; font-weight: bold}
+.postjob .modal-body .save a{color: #CC3838;}
+/*.modal-backdrop.fade.in{pointer-events: none}*/
+textarea{resize: vertical}
+.attachments li{width: 22%}
+.attachments li img{width: 100%; height: auto}
+.jobactions a{color: #333; opacity: 0.8}
+.jobactions a:hover{color: #333; opacity: 1}
+
+.job.active {border: 1px solid #cc3738; border-radius: 20px}
+
+.bdrr{border-right: 1px solid #ccc}
+.bdrl{border-left: 1px solid #ccc}
+.brad{border-radius: 15px}
+.bdrt{border-top: 1px solid #ccc}
+
+.myjobstab .nav-tabs {border-bottom: none; width: 40%; border: 1px solid #cc3738; border-radius: 50px; overflow: hidden; display: inline-block;}
+.myjobstab .nav-tabs > li {float: left; margin-bottom: -1px; width: 50%; text-align: center}
+.myjobstab .nav-tabs > li > a {margin-right: 0px; line-height: 1.42857143; color: #cc3738}
+.myjobstab .nav-tabs > li.active > a{color: #fff} 
+
+.bdrbox{border-right: 1px solid #ccc}
+
+.myjobstype .btn-group{width: 50%}
+.myjobstype .btn-group label.btn span {float: left}
+.myjobstype .btn-group label{height: 40px; width: 25%; box-shadow: none}
+.myjobstype .btn-group label input[type="radio"] ~ i{float: left; margin-right: 5px}
+.myjobstype .btn-group label input[type="radio"] ~ i.far.fa-circle{color: #CC3838; display: inline;}
+.myjobstype .btn-group label input[type="radio"] ~ i.far.fa-dot-circle{display: none;}
+.myjobstype .btn-group label input[type="radio"]:checked ~ i.far.fa-circle{display: none;}
+.myjobstype .btn-group label input[type="radio"]:checked ~ i.far.fa-dot-circle{color: #CC3838; display: inline;}
+.myjobstype .btn-group label:hover input[type="radio"] ~ i.fas, .myjobstype .btn-group label:hover input[type="radio"] ~ i.far {
+color: #AC1718;}
+.myjobstype .btn-group div[data-toggle="buttons"] label.active{color: #AC1718;}
+.myjobstype .btn-group div[data-toggle="buttons"] label {display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 2em;
+text-align: left; white-space: nowrap; vertical-align: top; cursor: pointer; background-color: none; border-radius: 3px;
+ -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none;user-select: none;}
+.myjobstype .btn-group div[data-toggle="buttons"] label:hover {color: #AC1718;}
+.myjobstype .btn-group div[data-toggle="buttons"] label:active, .myjobstype .btn-group div[data-toggle="buttons"] label:focus, .myjobstype .btn-group div[data-toggle="buttons"] label.active, .myjobstype .btn-group div[data-toggle="buttons"] label.active.focus  {-webkit-box-shadow: none; box-shadow: none;}
+
+
+.myjobstype2 .btn-group{width: 100%}
+.myjobstype2 .btn-group label.btn span {float: left}
+.myjobstype2 .btn-group label{height: 40px; width: 100%; box-shadow: none}
+.myjobstype2 .btn-group label input[type="radio"] ~ i{float: right; margin-right: 5px}
+.myjobstype2 .btn-group label input[type="radio"] ~ i.far.fa-circle{color: #CC3838; display: inline;}
+.myjobstype2 .btn-group label input[type="radio"] ~ i.far.fa-dot-circle{display: none;}
+.myjobstype2 .btn-group label input[type="radio"]:checked ~ i.far.fa-circle{display: none;}
+.myjobstype2 .btn-group label input[type="radio"]:checked ~ i.far.fa-dot-circle{color: #CC3838; display: inline;}
+.myjobstype2 .btn-group label:hover input[type="radio"] ~ i.fas, .myjobstype2 .btn-group label:hover input[type="radio"] ~ i.far {
+color: #AC1718;}
+.myjobstype2 .btn-group div[data-toggle="buttons"] label.active{color: #AC1718;}
+.myjobstype2 .btn-group div[data-toggle="buttons"] label {display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 2em;
+text-align: left; white-space: nowrap; vertical-align: top; cursor: pointer; background-color: none; border-radius: 3px;
+ -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none;user-select: none;}
+.myjobstype2 .btn-group div[data-toggle="buttons"] label:hover {color: #AC1718;}
+.myjobstype2 .btn-group div[data-toggle="buttons"] label:active, .myjobstype .btn-group div[data-toggle="buttons"] label:focus, .myjobstype .btn-group div[data-toggle="buttons"] label.active, .myjobstype2 .btn-group div[data-toggle="buttons"] label.active.focus  {-webkit-box-shadow: none; box-shadow: none;}
+.myjobstype2 span.input.input--hoshi .input__field--hoshi{margin-top: 0} 
+.input--hoshi small{
+	font-size: 10px;
+	color: #777;
+}
+.posabids{position: relative; display: none;}
+.posabids.active{position: relative; right: 0; display: block}
+.posabids .findjob h4 {font-size: 14px;}
+.posabids .defaultjob {max-height: 40px; max-width: 40px;}
+.posabids .findjob p.price {font-size: 18px; padding: 0;}
+.posabids .findjob span{font-size: 12px}
+.comments h4{color: #CC3838;font-weight: bold;margin-top: 0; letter-spacing: 1px; font-size: 18px;}
+.comments .chat{font-size: 12px}
+.comments .chat.reply {background: #eee; padding: 15px 15px 0px 15px;}
+.comments textarea{height: 50px; margin-top: 0; padding-left: 10px}
+.comments label{margin-bottom: 0}
+.comments .send{font-size: 35px; color: #cc3738}
+.send2{font-size: 35px; color: #cc3738}
+.profilebg{background: url(../images/profile_bg.png) no-repeat 0 0 / cover; }
+.profilebg .profileimg{position: relative; top: 80px; border-radius: 50%; height: auto; width: 100%; overflow: hidden}
+.profilename{color: #fff}
+.profilename a{color: #fff; background: #cc3738; padding: 10px 15px; border-radius: 50px}
+.profilename a:hover{background: #AC1718; text-decoration: none}
+.profilename strong.bld{font-size: 15px; font-weight: bold}
+strong.rtxt{color: #AC1718; font-size: 18px}
+.skills ul li{margin-top: 10px; font-weight: 800; font-size: 15px}
+.skills ul li small{font-weight: 100}
+.skillsdrop .btn-default{background: #fff; color: #595F6E; border: none; border-radius: 0; border-bottom: 3px solid #B9C1CA; padding-left: 5px}
+.forscrl{height: 76vh; overflow-y: auto; overflow-x: hidden}
+.forscrl2{height: 68vh; overflow-y: auto; overflow-x: hidden}
+.fnt10{font-size: 10px}
+.posf{position: fixed; background: rgba(0,0,0,0.55); color: #fff; width: 11%; left: 22%; right: 0; top: auto; text-align: center; padding: 6px; border-radius: 50px; height: 26px; z-index: 1; font-size:11px}
+.clrlgrey{color: #666}
+ul.stars{width: 100%}
+ul.stars li{width: 10%}
+.jobcomplete .btn-default{color: #fff}
+.jobcomplete .btn-default:hover{color: #fff}
+.report{display: block; cursor: pointer; font-size: 10px}
+
+.forshow{display: none} 
+.disp{display: block}
+.forshow2{display: none}
+.disp2{display: block}
+.verify{color: #AC1718; font-size: 12px; margin-top: -10px; float: left}
+.wtxt{color: #fff}
+.rating{color: #fff; background: #cc3738; padding: 3px 10px; border-radius: 50px; position: absolute; bottom: -88px; right: 38%; font-size: 10px;}
+.inneractive{background: #cc3738; color: #fff!important}
+.inneractive .text-primary{color: #fff; }
+.inneractive:hover {background: #cc3738!important; color: #fff!important}
+.inneractive:hover .text-primary{color: #fff; }
+
+.invoice h3{font-weight: bold; font-size: 20px}
+.invoice h3 span{font-weight: bold; font-size: 20px!important}
+
+.toright .actions{background: #b42a2a; color: #fff; padding: 3px 10px; }
+.toright ul.dropdown-menu {left: auto; right: 0; width: 200px}
+.greybg{background: #f7f7f7; padding: 10px}
+.greybg2{background: #f7f7f7; padding: 4px 10px}
+.btn.dropdown-toggle{border-radius: 50px;}
+.btn-grey{background: #f7f7f7; border-radius: 50px; width:100%}
+.txn p{width: 100%}
+.price2{color: #CC3838; font-size: 18px!important; font-weight: bold}
+.price2 span{color: #CC3838; font-size: 18px!important; font-weight: bold}
+
+.personal .panel{border: none; border-top: 1px solid #ccc; border-radius: 0; margin-left: -10px; margin-right: -10px; margin-bottom: -10px;}
+.forbank ul.nav.nav-tabs {width: 70%}
+.forbank ul.nav.nav-tabs li{width: 50%}
+.forbank ul.nav.nav-tabs li a{border-radius: 20px}
+.forbank ul.nav.nav-tabs li a:hover, .forbank ul.nav.nav-tabs li a:focus{background: transparent; color: 000}
+.forbank ul.nav.nav-tabs li a:focus{background-color: #cc3838; color: #fff}
+.forbank .dropdown .btn-group button{background: transparent; color: #000; border: none; box-shadow: none; border-bottom: 3px solid #ccc; border-radius:0}
+.paym{color: #cc3838; font-size:20px}
+
+/*new design css*/
+.filter h5{color: #fff; font-size: 12px; margin: 8px 0 5px 0;}
+.filter input::-webkit-input-placeholder {color: #fff; opacity: 1}
+.filter input::-moz-placeholder {color: #fff; opacity: 1}
+.filter input:-ms-input-placeholder {color: #fff; opacity: 1}
+.filter input:-moz-placeholder {color: #fff; opacity: 1}
+.forcity a i{color: #fff; font-size: 13px}
+.forbudget .dropdown-menu{width: 280px; padding: 10px }
+.forbudget .dropdown-menu span{font-size: 12px}
+.filter input.budget{background: transparent; border: none; border-bottom: 1px solid #CF457F; width: 100%; color: #000; font-size: 14px; font-weight: bold; margin-top:2px; float: left; margin-right: 10px; padding: 2px 0;}
+.filter input.budget::-webkit-input-placeholder {color: #000; opacity: 1}
+.filter input.budget::-moz-placeholder {color: #000; opacity: 1}
+.filter input.budget:-ms-input-placeholder {color: #000; opacity: 1}
+.filter input.budget:-moz-placeholder {color: #000; opacity: 1}
+
+.filter span.budget{padding: 0 8px; color: #fff; font-size: 11px}
+.filter input.city{background: transparent; border: none; width: 80%; color: #fff; font-size: 14px; font-weight: bold; margin-top:2px}
+.btn-apply{background: transparent; color: #CF457F; font-weight: 900; margin: 15px 0 4px 0px; padding: 2px 18px; border: 1px solid #CF457F; border-radius: 30px; font-size: 12px}
+.filter a{color: rgba(255,255,255,0.7); margin-bottom: 0; font-size: 10px; padding-left: 12px}
+.bdrr2{border-right: 1px solid #fff; margin-top: 7px}#CF457F
+.bdrr2 button{padding-top: 0}
+.newpost{background: #d14649; 
+background: -moz-linear-gradient(left,  #d14649 0%, #d04564 50%, #cf4580 100%);
+background: -webkit-linear-gradient(left,  #d14649 0%,#d04564 50%,#cf4580 100%);
+background: linear-gradient(to right,  #d14649 0%,#d04564 50%,#cf4580 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d14649', endColorstr='#cf4580',GradientType=1 );
+color: #fff!important; border-radius: 20px; padding: 5px 10px 0 10px!important; border:1px solid transparent; transition: 1s all;}
+
+a.newpost:hover{border:1px solid #D14B7A; color: #D14B7A!important}
+
+.clear a{color: #fff;font-size: 12px; margin-top: 30px; float: left; padding-left: 0}
+.search input{border: 1px solid #fff; border-radius: 30px 0px 0px 30px; padding: 5px; background: #fff; color: #000; width: 85%; height: 36px}
+.search input::-webkit-input-placeholder {color: #000; opacity: 1}
+.search input::-moz-placeholder {color: #000; opacity: 1}
+.search input:-ms-input-placeholder {color: #000; opacity: 1}
+.search input:-moz-placeholder {color: #000; opacity: 1}
+.search a{background: #fff; padding: 7px 10px; width: 15%; float: right; position: relative; top: 0px; color: #CF4580; font-size: 14px; border-radius: 0 30px 30px 0; border-left: 1px solid #000; height: 36px}
+.fordesk{display: block; height: auto}
+.dpb{display: block!important}
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px){
+body{overflow-x: hidden; font-size: 12px}  
+.mT0-xs{margin-top: 0px}.mT5-xs{margin-top: 5px}.mT10-xs{margin-top: 10px}.mT20-xs{margin-top: 20px}.mT30-xs{margin-top: 30px}.mT40-xs{margin-top: 40px}.mT50-xs{margin-top: 50px}.mT60-xs{margin-top: 60px}.mT65-xs{margin-top: 65px}.mT70-xs{margin-top: 70px}.mT80-xs{margin-top: 80px}.mT90-xs{margin-top: 90px}.mT100-xs{margin-top: 100px}.pL5-xs{padding-left: 5px}
+    
+    .mL20-xs{margin-left: 20px}.mT-30-xs{margin-top: -30px}.mT170-xs{margin-top: 170px}.mT5-xs{margin-top: 5px}
+.mB0-xs{margin-bottom: 0px}.mB20-xs{margin-bottom: 20px}.mB40-xs{margin-bottom: 40px}
+.pT20-xs{padding-top: 20px}    
+.pB0-xs{padding-bottom: 0} .pB20-xs{padding-bottom: 20px}       
+.pR0-xs{padding-right:0}.pR15-xs{padding-right: 15px}
+.pL0-xs{padding-left: 0px}.pL15-xs{padding-left: 15px}.pL20-xs{padding-left: 20px}.pL30-xs{padding-left: 30px}.pL40-xs{padding-left: 40px}.pL50-xs{padding-left: 50px}
+.text-center-xs{text-align: center}    
+.text-left-xs{text-align: left}    
+.text-right-xs{text-align: right}
+.defaultjob{margin-top: 20px}    
+.jobd .defaultjob{margin-top: 0px}
+.jobd .findjob h4 {margin-top: 0;}
+    .mT0-xs{margin-top: 0!important}
+    
+h2{font-size: 22px}    
+.h100{height: auto}
+.navbar-default {padding: 0px 0 0 0;}    
+.navbar-toggle {margin-top: 16px; margin-bottom: 0;}
+a.navbar-brand{width: 30%; margin-top: 5px; margin-bottom: 5px; padding-right: 15px}
+.findjob p.price {font-size: 16px;}
+.navbar-brand{padding-left: 15px}
+.navbar-brand img{width: 90%} 
+.zi{z-index: 1031}    
+.post{width: 34%; position: absolute; left: 0; right: 0; top: 0; margin: 15px auto; text-align: center}    
+.post a {padding: 8px 10px !important; font-size: 12px;}
+.navbar-nav > li > a {padding-top: 0; padding-bottom: 0;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a.active {
+   border-bottom: 5px solid transparent; cursor: pointer;}
+.nav > li {display: inline-block; width: 48%;}
+.postjob .modal-dialog{width: 100%; margin: 10px auto 30px}    
+.postjob .modal-body .nextbtn{bottom: -70px}
+.postjob .modal-content {min-height: 630px; max-height: 630px;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {margin-top: 10px; border-bottom: 1px solid #e7e7e7;}    
+.navbar-header{padding-bottom: 0}
+.attachments li {width: 24%;}    
+.navbar-collapse.in {overflow: visible;}
+.navbar-nav .open ul.dropdown-menu{background: #cc3738; position: absolute; top: auto; left: -10px; width: 100%; float: left;}    
+.navbar-nav .open ul.dropdown-menu li a{color: #fff}    
+.forc{cursor: pointer}    
+.myjobstab .nav-tabs {width: 100%;}
+.posabids.active {position: relative;}
+.jobactive {padding: 10px;}
+.posabids .findjob p.price {font-size: 14px;}
+.posabids .findjob span {font-size: 10px;}    
+.myjobstype .btn-group {width: 100%;}    
+.posabids{margin-top: 0 }
+.jobd{position: relative; top: 0; left:0; margin-top: 10px}   
+.forhr{border-bottom: 1px solid #ccc; border-bottom: none}
+.forhr.active{border: none}    
+.posf{width: 80%; left: 10%}    
+.forscrl {height: auto; overflow-y: auto; overflow-x: hidden}
+.forscrl2 {height: auto; overflow-y: auto; overflow-x: hidden}    
+.myjobstype .btn-group label:first-child{width: 18%}    
+.myjobstype .btn-group label{width: 27%; font-size: 11px}       
+.rating{bottom: -92px; right: 28%;}    
+.forbank ul.nav.nav-tabs {width: 100%}    
+.navbar-default .navbar-nav > li > a {color: #404040; border-bottom: 5px solid #fff;}    
+a.newpost{border-bottom: none!important;}
+    a.newpost i{font-size: 14px}    
+a.newpost:hover{border-bottom: none!important; background: #d14649!important; 
+background: -moz-linear-gradient(left,  #d14649 0%, #d04564 50%, #cf4580 100%)!important;
+background: -webkit-linear-gradient(left,  #d14649 0%,#d04564 50%,#cf4580 100%)!important;
+background: linear-gradient(to right,  #d14649 0%,#d04564 50%,#cf4580 100%)!important; 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d14649', endColorstr='#cf4580',GradientType=1 )!important;}  
+    
+.findjob i{display: none}   
+.findjob p  {font-size: 8px}
+.findjob p span{font-weight: normal}   
+.searchmob{position: absolute; right: 0}
+.forbudget .btn-success.dropdown-toggle{padding-left: 0}   
+p.pL0-xss{padding-left: 0!important}    
+.findjob span.label-danger{min-width: 75px; font-size: 11px}    
+.search a{padding:7px 5px}  
+.fordesk{display: none; height: 0}   
+.formob{width: 40%; float: left; padding: 18px 0 8px 0; padding-left: 0px; text-align: left; background: transparent; color: #fff !important; font-size: 15px !important;}  
+a.formob:hover, a.formob:focus{background: transparent}
+.mT130-xs{margin-top: 130px}  
+    .jobd i{display: inline}
+    .text-right-xs{text-align: right}
+    .findjob h4{margin-top: 20px}
+    .panel-heading h4{margin-top: 0}
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px){
+.post {margin: 20px 20%; width: 20%;}
+.jobactive {padding: 10px;}
+.posabids .findjob p.price {font-size: 14px;}
+.posabids .findjob span {font-size: 10px;}     
+.myjobstype .btn-group {width: 50%;}       
+}
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1100px){
+.post {margin: 20px 35%; width: 15%;}
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 2000px){
+.container {width: 1400px;}
+.post {width: 8%;}
+}
+/*
+background: #d14649; 
+background: -moz-linear-gradient(left,  #d14649 0%, #d04564 50%, #cf4580 100%);
+background: -webkit-linear-gradient(left,  #d14649 0%,#d04564 50%,#cf4580 100%);
+background: linear-gradient(to right,  #d14649 0%,#d04564 50%,#cf4580 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d14649', endColorstr='#cf4580',GradientType=1 );
+*/
+
+input:focus{
+	outline: none !important;
+	box-shadow: none !important;
+}
+.navbar-default .navbar-nav > li > a{
+	margin: 0 10px;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a.active{
+	border-bottom: 1px solid #D1474C !important;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+#clsMobFilter{
+position: absolute;
+    left: 60px;
+    top: 19px;
+	z-index: 999;
+	display: none;
+	}
+
+
+.boldPlaceholder::placeholder{
+	font-weight: bold;
+}
+.input--hoshi input[readonly]{
+	background: #ddd;	
+}
+.input--hoshi input[readonly]:focus{
+	outline: none;
+	box-shadow: none;
+} 
+
+/*payment modal*/
+.timeline-modal .mobile_fix-tab{ position: static; top: 0px; z-index: 999; background: #fff; padding-top: 0px; width: 100% !important;	}
+
+.offer-list .small span{ color: #777 !important; }

@@ -1,0 +1,54 @@
+#ADMIN MODE REPO: PUSH TO INTERNAL DEV SYSTEM ONLY
+
+# Ignore directories first
+#full_site.git
+#admin_panel.git
+__*.*
+*.DS_Store
+assets/
+kcfinder/
+application/logs/
+
+# Ignore MS: multi site addon domain folders manually
+# Ignore files at root
+.settings
+.buildpath
+.htaccess
+.project
+error_log
+
+#config
+#application/config/constants.php
+#application/config/database.php
+#application/config/routes.php
+
+#controllers
+
+#helpers
+#application/helpers/common_view_helper.php
+
+#language
+#application/language/*
+
+#libraries
+#application/libraries/CloudwebsCustom.php
+
+#models
+
+#views
+#application/views/*.*
+#application/views/account/*
+#application/views/elements/*
+#application/views/templates/*
+
+#css
+#css/*.*
+
+#fonts
+fonts/*.*
+
+#images
+#images/*
+
+#js
+#js/*.*
