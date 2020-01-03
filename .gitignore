@@ -6,21 +6,21 @@
 __*.*
 *.DS_Store
 assets/
-kcfinder/
+#kcfinder/
 application/logs/
 
 # Ignore MS: multi site addon domain folders manually
 # Ignore files at root
-.settings
-.buildpath
-.htaccess
-.project
+#.settings
+#.buildpath
+#.htaccess
+#.project
 error_log
 
 #config
-#application/config/constants.php
-#application/config/database.php
-#application/config/routes.php
+application/config/constants.php
+application/config/database.php
+application/config/routes.php
 
 #controllers
 

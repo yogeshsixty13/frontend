@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+Options -Indexes 
+ErrorDocument 403 http://www.gujcart.com/err?type=403
+ErrorDocument 404 http://www.gujcart.com/err?type=404
+AddDefaultCharset UTF-8
