@@ -18,9 +18,9 @@ application/logs/
 error_log
 
 #config
-application/config/constants.php
-application/config/database.php
-application/config/routes.php
+#application/config/constants.php
+#application/config/database.php
+#application/config/routes.php
 
 #controllers
 
@@ -45,7 +45,7 @@ application/config/routes.php
 #css/*.*
 
 #fonts
-fonts/*.*
+#fonts/*.*
 
 #images
 #images/*
